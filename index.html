@@ -1,17 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Github Page demo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="index.js"></script>
+	<meta charset="UTF-8">
+	<title>My HTML Page</title>
 </head>
 <body>
-    <div id="main-content">
-		This is a Github-pages.
-    </div>
-    <a href="行政处罚流程图">执法文件</a>
+	<header>
+		<h1>Welcome to my HTML Page</h1>
+	</header>
+	<main>
+		<section>
+			<h2>About Me</h2>
+			<p>Hi, my name is John and I'm a web developer.</p>
+			<p>I enjoy creating websites and web applications using HTML, CSS, and JavaScript.</p>
+		</section>
+		<section>
+			<h2>My Skills</h2>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>jQuery</li>
+				<li>Bootstrap</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Contact Me</h2>
+			<form action="submit-form.php" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<input type="submit" value="Send Message">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2022 John Doe. All rights reserved.</p>
+	</footer>
 </body>
 </html>
